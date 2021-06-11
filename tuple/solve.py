@@ -18,6 +18,5 @@ def solution(s):
         for digit in tmp:
             if int(digit) not in answer:
                 answer.append(int(digit))
-
     return answer
 solution("{{2},{2,1},{2,1,3},{2,1,3,4}}")
